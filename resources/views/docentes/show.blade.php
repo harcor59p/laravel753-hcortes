@@ -8,7 +8,7 @@
     <div class="card-body">
         <h4 class="card-text">Nombres y apellidos: {{$docentico->nombres}} {{$docentico->apellidos}}</h4>
         <p class="card-text">email: {{$docentico->email}}</p>
-        <p class="card-text">edad: {{$docentico->edad}} años</p>
+        <p class="card-text">edad: {{$docentico->edad}} años.</p>
     </div>
     <a href="/docentes/{{$docentico->id}}/edit" class="btn btn-danger">Editar Docente</a>
 </div>
