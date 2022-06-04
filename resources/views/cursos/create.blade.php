@@ -2,7 +2,7 @@
 
 @section('titulo', 'Listado Cursos')
 
-@section('Contenido')
+@section('contenido')
 
 <h3>Crear un Nuevo Curso</h3>
 <br>

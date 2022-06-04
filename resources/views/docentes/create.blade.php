@@ -2,7 +2,7 @@
 
 @section('titulo', 'Listado Cursos')
 
-@section('Contenido')
+@section('contenido')
 
 <h3>Crear un Nuevo Docente</h3>
 <br>
@@ -27,11 +27,11 @@
     </div>
     <div class="form-group">
         <label for="email">Ingrese email del docente</label>
-        <input id="email" class="form-control" type="email" mane="email">
+        <input id="email" class="form-control" type="email" name="email">
     </div>
     <div class="form-group">
         <label for="edad">Ingrese la edad del docente</label>
-        <input id="edad" class="form-control" type="number" name="emailcion">
+        <input id="edad" class="form-control" type="number" name="edad">
     </div>
     <div class="form-group">
         <label for="descrip">Cargue la foto del docente</label>
