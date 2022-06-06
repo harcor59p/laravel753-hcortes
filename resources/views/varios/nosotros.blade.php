@@ -2,7 +2,7 @@
 
 @section('titulo', 'Acerca de Nosotros')
 
-@section('Contenido')
+@section('contenido')
 
 <h3 class="text-center">Información sobre Nosotros</h3>
 <br>

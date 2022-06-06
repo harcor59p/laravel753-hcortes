@@ -13,7 +13,7 @@
             <div class="card-body">
                 <h5 class="card-title">Nombre del curso: {{$curso->nombre}}</h5>
                 <p class="card-text">Descripcion del curso: {{$curso->descripcion}}</p>
-                <a name="" id="" class="btn btn-danger" href="#" role="button">Ver mas</a>
+                <a name="" id="" class="btn btn-danger" href="/cursos/{{$curso->id}}" role="button">Ver mas</a>
             </div>
         </div>
     </div>
